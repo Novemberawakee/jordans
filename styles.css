@@ -1,0 +1,46 @@
+body {
+    background-color: #232323;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.images {
+    width: 450px;
+}
+.btn {
+    background-color: #232323;
+    border: 2px #fff solid;
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+@media all and (max-width: 1024px) {
+    .images {
+        width: 500px;
+    }
+}
+@media all and (max-width: 540px) {
+    .images {
+        width: 230px;
+    }
+    .btn {
+        font-size: 12px;
+        padding: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+@media all and (max-width: 280px) {
+    .images {
+        width: 180px;
+    }
+    .btn {
+        font-size: 10px;
+        padding: 3px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
